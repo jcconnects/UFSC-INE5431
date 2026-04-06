@@ -8,7 +8,7 @@
 
 3) Responda as questões abaixo:
 
-A) Vá no notebook e altere o som para manter os parâmetros próximos do original: 40kHz e 16 bits por amostra. Em seguida responda:
+# A) Vá no notebook e altere o som para manter os parâmetros próximos do original: 40kHz e 16 bits por amostra. Em seguida responda:
 
 ## i) Qual é a maior frequência de som no arquivo acima da magnitude 1?
 10kHz
@@ -23,7 +23,7 @@ A) Vá no notebook e altere o som para manter os parâmetros próximos do origin
 O tamanho do arquivo é 800044B porque 44B são referentes ao header.
 
 ## v) O tamanho do arquivo em disco em bytes, observando as propriedades do arquivo, ou no linux utilize "du -s -B1 audio.wav", e indique o motivo da diferença entre este tamanho e o tamanho do arquivo em ii).
-Como diminuímos a taxa de amostragem o tamanho do arquivo também ficou menor.
+Utilizando o comando du, 802.816 bytes (blocos de 4096 B no APFS). O tamanho do arquivo depende do tamanho do bloco do sistema de arquivos.
 
 ## vi) Indique o tamanho deste arquivo em disco se  o seu HD fosse formatado para um tamanho de bloco (unidade de alocação em disco) de 2048 B.
  O disco aloca espaço em blocos fixos de 2048 bytes e precisa de 391 blocos para armazenar o aquivo, desse modo ele ocupa 800.768 bytes em disco. Precisamos de um bloco extra para armazenar 1324 bytes.
