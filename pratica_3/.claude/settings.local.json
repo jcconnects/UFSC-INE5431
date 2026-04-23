@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/jcconnects/Documents/ufsc/UFSC-INE5431/pratica_3/*.bmp /Users/jcconnects/Documents/ufsc/UFSC-INE5431/pratica_3/*.cuif)"
+    ]
+  }
+}
